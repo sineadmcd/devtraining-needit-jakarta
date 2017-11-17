@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="survey_staging" max_length="40" name="x_58872_needit_survey_staging" type="collection">
+        <element attributes="import_attribute_name=Business,edge_encryption_enabled=true" label="Business" max_length="386" name="u_business" type="string"/>
+        <element attributes="import_attribute_name=Changed from source,edge_encryption_enabled=true" label="Changed from source" max_length="40" name="u_changed_from_source" type="string"/>
+        <element attributes="import_attribute_name=Innovation Ranking,edge_encryption_enabled=true" label="Innovation Ranking" max_length="40" name="u_innovation_ranking" type="string"/>
+        <element attributes="import_attribute_name=IT Function,edge_encryption_enabled=true" label="IT Function" max_length="40" name="u_it_function" type="string"/>
+        <element attributes="import_attribute_name=More info needed,edge_encryption_enabled=true" label="More info needed" max_length="40" name="u_more_info_needed" type="string"/>
+        <element attributes="import_attribute_name=Name,edge_encryption_enabled=true" label="Name" max_length="49" name="u_name" type="string"/>
+        <element attributes="import_attribute_name=Name (Q),edge_encryption_enabled=true" label="Name (Q)" max_length="40" name="u_name__q_" type="string"/>
+        <element attributes="import_attribute_name=Note,edge_encryption_enabled=true" label="Note" max_length="59" name="u_note" type="string"/>
+        <element attributes="import_attribute_name=Primary Tech Megatrend,edge_encryption_enabled=true" label="Primary Tech Megatrend" max_length="40" name="u_primary_tech_megatrend" type="string"/>
+        <element attributes="import_attribute_name=Primary Type,edge_encryption_enabled=true" label="Primary Type" max_length="40" name="u_primary_type" type="string"/>
+        <element attributes="import_attribute_name=Project Description,edge_encryption_enabled=true" label="Project Description" max_length="1238" name="u_project_description" type="string"/>
+        <element attributes="import_attribute_name=Project Title,edge_encryption_enabled=true" label="Project Title" max_length="282" name="u_project_title" type="string"/>
+        <element attributes="import_attribute_name=Reason,edge_encryption_enabled=true" label="Reason" max_length="52" name="u_reason" type="string"/>
+        <element attributes="import_attribute_name=Source,edge_encryption_enabled=true" label="Source" max_length="40" name="u_source" type="string"/>
+        <element attributes="import_attribute_name=Stage,edge_encryption_enabled=true" label="Stage" max_length="40" name="u_stage" type="string"/>
+        <element attributes="import_attribute_name=Status,edge_encryption_enabled=true" label="Status" max_length="40" name="u_status" type="string"/>
+        <element attributes="import_attribute_name=Technical,edge_encryption_enabled=true" label="Technical" max_length="327" name="u_technical" type="string"/>
+        <element attributes="import_attribute_name=Vendor Contribution,edge_encryption_enabled=true" label="Vendor Contribution" max_length="40" name="u_vendor_contribution" type="string"/>
+        <element attributes="import_attribute_name=Vendor Contribution (R),edge_encryption_enabled=true" label="Vendor Contribution (R)" max_length="331" name="u_vendor_contribution__r_" type="string"/>
+        <element attributes="import_attribute_name=#" label="#" max_length="40" name="u__" type="integer"/>
+    </element>
+</database>
